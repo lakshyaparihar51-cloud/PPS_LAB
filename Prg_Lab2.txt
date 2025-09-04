@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main()
+{
+  int a;
+  int b; 
+  int c;
+  int g;
+  scanf("%d",&a);
+   scanf("%d",&b);
+    scanf("%d",&c);
+  
+  if(a>b&&b>c)
+  {
+    g=a;
+    printf("%d is the greatest of the given three numbers.\n",g);
+  }
+  else if(a<b&&b<c)
+  {
+    g=c;
+    printf("%d is the greatest of the given three numbers.\n",g);
+  }
+  else
+  {
+    g=b;
+    printf("%d is the greatest of the given three numbers.\n",g);
+}
+    return 0;
+}

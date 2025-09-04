@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+  float f1;
+  float f2;
+  scanf("%f %f" ,&f1 ,&f2);
+  if(f1==f2)
+{
+  printf("It is a square");
+}
+ else
+ 
+ printf("It is not a square, It forms a rectangle");
+ return 0;
+}
